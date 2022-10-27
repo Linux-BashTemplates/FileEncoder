@@ -6,9 +6,9 @@ Open linux terminal and set executable permission for script
 
 Try to run current script: 
 `./encode.sh <directory/filename.txt>`
-![image](https://user-images.githubusercontent.com/48886027/198325237-a266b527-9443-4179-8d4b-685f180f896d.png)
-![image](https://user-images.githubusercontent.com/48886027/198324991-7d6547ff-7be2-4530-87d5-a40e91395cbe.png)
+![image](https://user-images.githubusercontent.com/48886027/198327133-0ea82f46-1640-4889-a123-9fa90f30358d.png)
+![image](https://user-images.githubusercontent.com/48886027/198327471-842a3790-94bf-4ae2-afe1-133491808ae9.png)
 
 
-Result:
+Result(Before and after):
 ![aryC6aTB_vs](https://user-images.githubusercontent.com/48886027/198323530-141e53a0-89e6-454a-9fce-9b30b6ebce8d.jpg)
