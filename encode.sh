@@ -1,6 +1,4 @@
 #!/bin/bash
-
-#!/bin/bash
 TO="UTF-8"; FILE=$1
 FROM=$(file -i $FILE | cut -d'=' -f2)
 if [[ $FROM = "binary" ]]; then
