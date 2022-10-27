@@ -12,3 +12,8 @@ Try to run current script:
 
 Result(Before and after):
 ![aryC6aTB_vs](https://user-images.githubusercontent.com/48886027/198323530-141e53a0-89e6-454a-9fce-9b30b6ebce8d.jpg)
+
+------------------
+About my system: 
+Ubuntu 22.04.1 LTS
+Bash version: 5.1.16(1) --release 
