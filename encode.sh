@@ -1,14 +1,16 @@
 #!/bin/bash
-TO="UTF-8"; FILE=$1
-FROM=$(file -i $FILE | cut -d'=' -f2)
-if [[ $FROM = "binary" ]]; then
- echo "Skipping binary $FILE..."
- exit 0
-fi
-iconv -f $FROM -t $TO -o $FILE.tmp $FILE; ERROR=$?
-if [[ $ERROR -eq 0 ]]; then
-  echo "Converting $FILE..."
-  mv -f $FILE.tmp $FILE
+
+if [ -n "$1" ]
+then
+    FROM_ENCODING=$1
+    TO_ENCODING="UTF-8"
+    OUTPUT="output_"
+    CONVERT=" iconv -f $FROM_ENCODING -t $TO_ENCODING"
+	for file in *.txt; do
+		$CONVERT -f $1 -o $1%.txt.utf8.converted
+	  done
+	exit 0
 else
-  echo "Error on $FILE"
+    echo "Incorrect agrument. Abort"
+    echo "Usage: ./encode.sh <path/<filename>.txt>"
 fi
