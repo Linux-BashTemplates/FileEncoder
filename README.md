@@ -15,7 +15,7 @@ About my system:
   Bash version: 5.1.16(1) --release 
 ------------------
 What's new? 
-++ Rewrite file function 
-++ Universal for many encodings
-++ Show decode result and save changes to file
+  Rewrite file function 
+  Universal for many encodings
+  Show decode result and save changes to file
 ------------------
